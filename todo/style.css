@@ -1,0 +1,55 @@
+
+@font-face {
+	font-family: "HennyPenny";
+	src: url('./fonts/HennyPenny/HennyPenny-Regular.ttf');
+}
+
+body{
+    background: url("./media/bureau.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: "HennyPenny",sans-serif;
+    font-size: 80px;
+}
+
+h2{
+    font-family: "Didot",sans-serif;
+    display: inline;
+}
+
+a{
+    text-decoration : none;
+}
+
+a.tache{
+    font-size : 200%;
+}
+
+a.edit{
+    vertical-align: sub;
+}
+
+div{
+    background-color: whitesmoke;
+    border : 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 800px;
+}
+
+table{
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+input{
+    height: 20px;
+}
