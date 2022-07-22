@@ -7,26 +7,26 @@
 </head>
 <body>
 
-<h3>Password Validation</h3>
+<h2>Password Validation</h3>
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="usrname">Username</label>
+    <label for="usrname">Nom d'utilisateur</label>
     <input type="text" id="usrname" name="usrname" required>
 
-    <label for="psw">Password</label>
-    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    <label for="psw">Mot de passe</label>
+    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Doit contenir au moins un chiffre, une majusule et une minuscule, et au moins 8 caractères" required>
     
-    <input type="submit" value="Submit">
+    <input type="submit" value="Envoyer">
   </form>
 </div>
 
 <div id="message">
-  <h3>Password must contain the following:</h3>
-  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
-  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
-  <p id="number" class="invalid">A <b>number</b></p>
-  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+  <h3>Le mot de passe doit contenir les spécificités suivantes :</h3>
+  <p id="letter" class="invalid">Une lettre <b>minuscule</b></p>
+  <p id="capital" class="invalid">Une lettre <b>majuscule</b></p>
+  <p id="number" class="invalid">Un <b>chiffre</b></p>
+  <p id="length" class="invalid">Minimum <b>8 caractères</b></p>
 </div>
 				
 <script>
